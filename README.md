@@ -16,7 +16,7 @@ $n->push('Message!', 'Link (optional)!');
 $n->disconnect();
 ```
 
-## Additional function
+## Additional functions
 
 Change the number you use to send:
 ```php
