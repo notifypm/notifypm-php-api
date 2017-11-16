@@ -10,7 +10,7 @@ Works with a sender account, you can open an account on https://notify.pm/busine
 
 require_once("notifypm.class.php");
 
-$n = new Notifypm('email', 'password', 'number'[optional]);
+$n = new Notifypm('email', 'password', 'number'[optional if you use $n->set('number')]);
 $n->push('Message!', 'Link (optional)!');
 
 $n->disconnect();
